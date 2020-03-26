@@ -15,7 +15,7 @@ public class Main {
 
         squaredNumbers(numbersList);
 
-        printAllNumbersAndSumNumbers(numbersList);
+        printNumberSum(numbersList);
     }
 
     private static void squaredNumbers(List<Integer> list) {
@@ -25,7 +25,7 @@ public class Main {
         System.out.println(squared);
     }
 
-    private static void printAllNumbersAndSumNumbers(List<Integer> list) {
+    private static void printNumberSum(List<Integer> list) {
         StringBuilder stringBuilder = new StringBuilder();
         int sum = 0;
 
