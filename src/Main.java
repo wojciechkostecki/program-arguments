@@ -13,12 +13,12 @@ public class Main {
         System.out.println(numbersList.size());
         System.out.println(numbersList);
 
-        squaredNumbers(numbersList);
+        printSquaredNumbers(numbersList);
 
         printNumberSum(numbersList);
     }
 
-    private static void squaredNumbers(List<Integer> list) {
+    private static void printSquaredNumbers(List<Integer> list) {
         List<Integer> squared = list.stream()
                 .map(x -> x * x)
                 .collect(Collectors.toList());
